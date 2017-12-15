@@ -1,3 +1,5 @@
 *~
 /work/example-junit
 /work/example-scalacheck
+build/
+.gradle/
