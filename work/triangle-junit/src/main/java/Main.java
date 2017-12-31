@@ -87,9 +87,9 @@ class Triangle {
 	    return Type.NOTRIANGLE;
 	}
 
-	boolean eq1 = (d12 - d23 < eps);
-	boolean eq2 = (d23 - d31 < eps);
-	boolean eq3 = (d31 - d12 < eps);
+	boolean eq1 = (Math.abs(d12 - d23) < eps);
+	boolean eq2 = (Math.abs(d23 - d31) < eps);
+	boolean eq3 = (Math.abs(d31 - d12) < eps);
 	
 	if (eq1 && eq2 && eq3) {
 	    return Type.EQUILATERAL;
