@@ -1,5 +1,11 @@
 *~
 /work/example-junit
 /work/example-scalacheck
+
+# JUnit
 build/
 .gradle/
+
+# Scalacheck
+project/
+target/
